@@ -1,7 +1,7 @@
 const fs = require('fs');
 const pdfParse = require('pdf-parse');
 
-const pdfPath = '/Users/parthsinghrao/Documents/code-zone/video-script/mastery_guide.pdf';
+const pdfPath = './docs/mastery_guide.pdf';
 
 async function readPdf() {
   const dataBuffer = fs.readFileSync(pdfPath);
