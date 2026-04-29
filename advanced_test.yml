@@ -1,0 +1,29 @@
+project:
+  name: The Cyberpunk Heist
+  aspect_ratio: 21:9
+  style: "Cyberpunk, Cinematic, Photorealistic"
+  mood: "Tense, mysterious, neon-lit"
+  quality: "8k, ultra-detailed, professional grading"
+
+characters:
+  koda:
+    description: "A rogue hacker wearing a glowing neon mask and a dark trench coat"
+  drone:
+    description: "A heavily armored security drone with red searching laser eyes"
+
+scenes:
+  - id: intro_scene
+    subject: "koda"
+    action: "walking slowly down an alleyway, looking over his shoulder cautiously"
+    camera: "Over-the-Shoulder (OTS), Steadicam"
+    lighting: "Low Key, Chiaroscuro with practical neon blue and pink lighting"
+    environment: "A dark, raining cyberpunk city alleyway with towering skyscrapers in the background"
+    duration: 5s
+
+  - id: chase_scene
+    subject: "koda and a security drone"
+    action: "koda sprinting rapidly, dodging lasers while the drone pursues him aggressively"
+    camera: "Tracking Shot, Low angle, Handheld"
+    lighting: "Hard Light, flashing red and blue strobes"
+    environment: "A crowded, wet neon-lit marketplace filled with futuristic stalls"
+    duration: 8s

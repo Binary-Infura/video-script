@@ -1,0 +1,65 @@
+project:
+  name: Rabbit and Tortoise Story
+  aspect_ratio: 16:9
+  style: pixar_3d
+
+characters:
+  rabbit:
+    description: "Fast white rabbit, energetic, overconfident"
+  tortoise:
+    description: "Small green tortoise, calm, determined"
+
+scenes:
+  - id: scene_1
+    prompt: "A sunny forest morning, rabbit stretching proudly while tortoise stands quietly at the starting line"
+    duration: 5s
+    camera: wide shot
+
+  - id: scene_2
+    prompt: "Rabbit laughing and challenging tortoise to a race, animals cheering around them"
+    duration: 5s
+    camera: medium shot
+
+  - id: scene_3
+    prompt: "Race starts, rabbit runs very fast leaving dust behind, tortoise walks slowly and steadily"
+    duration: 5s
+    camera: tracking shot
+
+  - id: scene_4
+    prompt: "Rabbit far ahead, looking back and laughing confidently"
+    duration: 4s
+    camera: close-up
+
+  - id: scene_5
+    prompt: "Rabbit sleeping peacefully under a big tree in the shade"
+    duration: 5s
+    camera: cinematic shot
+
+  - id: scene_6
+    prompt: "Tortoise slowly passing the sleeping rabbit with determination"
+    duration: 5s
+    camera: side shot
+
+  - id: scene_7
+    prompt: "Rabbit waking up suddenly, shocked to see tortoise near the finish line"
+    duration: 4s
+    camera: dramatic close-up
+
+  - id: scene_8
+    prompt: "Rabbit running as fast as possible toward the finish line"
+    duration: 4s
+    camera: action shot
+
+  - id: scene_9
+    prompt: "Tortoise crossing the finish line as animals cheer loudly"
+    duration: 5s
+    camera: wide shot
+
+  - id: scene_10
+    prompt: "Rabbit looking sad while tortoise smiles humbly, moral text appears: Slow and steady wins the race"
+    duration: 5s
+    camera: ending shot
+
+output:
+  format: mp4
+  resolution: 1080p
